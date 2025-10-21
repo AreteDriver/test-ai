@@ -27,7 +27,8 @@ env/
 .venv
 
 # Poetry
-poetry.lock
+# Uncomment if you want to track the lock file
+# poetry.lock
 
 # Environment variables
 .env
@@ -49,6 +50,13 @@ Thumbs.db
 logs/
 src/test_ai/logs/
 
+# Generated runtime files
+src/test_ai/prompts/*.json
+src/test_ai/workflows/*.json
+!src/test_ai/workflows/email_to_notion.json
+!src/test_ai/workflows/generate_sop_to_github.json
+!src/test_ai/workflows/simple_ai_completion.json
+
 # API credentials
 credentials.json
 token.pickle
@@ -61,6 +69,7 @@ token.json
 .pytest_cache/
 .coverage
 htmlcov/
+test_basic.py
 
 # Temp files
 tmp/
