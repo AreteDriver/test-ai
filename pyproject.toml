@@ -6,8 +6,21 @@ authors = ["Aretedriver <aretedriver@gmail.com>"]
 package-mode = false
 
 [tool.poetry.dependencies]
-python = ">=3.12"
+python = ">=3.12,<4.0"
 openai = "^2.1.0"
+fastapi = "^0.115.0"
+uvicorn = "^0.32.0"
+streamlit = "^1.39.0"
+google-auth = "^2.35.0"
+google-auth-oauthlib = "^1.2.0"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.150.0"
+notion-client = "^2.2.1"
+PyGithub = "^2.4.0"
+pydantic = "^2.11.0"
+pydantic-settings = "^2.6.0"
+python-dotenv = "^1.0.0"
+aiofiles = "^24.1.0"
 
 [build-system]
 requires = ["poetry-core"]
