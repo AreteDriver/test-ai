@@ -1,77 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
-venv/
-ENV/
-env/
-.venv
-
-# Poetry
-# Uncomment if you want to track the lock file
-# poetry.lock
-
-# Environment variables
 .env
-.env.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+*.pyc
+__pycache__/
 logs/
-src/test_ai/logs/
-
-# Generated runtime files
-src/test_ai/prompts/*.json
-src/test_ai/workflows/*.json
-!src/test_ai/workflows/email_to_notion.json
-!src/test_ai/workflows/generate_sop_to_github.json
-!src/test_ai/workflows/simple_ai_completion.json
-
-# API credentials
-credentials.json
-token.pickle
 token.json
-
-# Streamlit
-.streamlit/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-test_basic.py
-
-# Temp files
-tmp/
-temp/
-*.tmp
+credentials.json
+.idea/
+.vscode/
+.envrc
